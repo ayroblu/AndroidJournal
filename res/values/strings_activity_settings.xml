@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <string name="pref_header_drawing">Drawing</string>
+
+    <string name="pref_title_lines">Ruled Lines</string>
+    <string name="pref_summary_lines">Whether there are ruled lines</string>
+    
+    <string name="pref_title_direction">Orientation of Lines</string>
+    <string name="pref_default_direction">Horizontal</string>
+    <string-array name="pref_direction">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+    
+    <string name="pref_title_background">Drawing Background</string>
+    <string name="pref_default_background">White</string>
+    <string-array name="pref_background">
+        <item>White</item>
+        <item>Black</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+    <string name="pref_title_pan">Hold Pan</string>
+    <string name="pref_summary_pan">Only pan when the pan button is pressed</string>
+    
+</resources>

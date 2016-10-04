@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Journal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_save">Save</string>
+    <string name="rgbr">R</string>
+    <string name="rgbg">G</string>
+    <string name="rgbb">B</string>
+    <string name="rgbo">Opacity</string>
+    <string name="colour">Colour</string>
+    <string name="stroke">Stroke: Delete strokes</string>
+    
+    <drawable name="clear">#00000000</drawable>
+
+</resources>

@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_header_drawing" >
+        <CheckBoxPreference android:key="lines_checkbox" 
+            android:title="@string/pref_title_lines"
+            android:defaultValue="false"
+            android:summary="@string/pref_summary_lines"/>
+    	
+        <ListPreference android:key="direction_list" 
+            android:dependency="lines_checkbox"
+            android:title="@string/pref_title_direction"
+            android:defaultValue="@string/pref_default_direction"
+            android:entries="@array/pref_direction"
+            android:entryValues="@array/pref_direction"/>
+        
+        <ListPreference android:key="background_list"
+            android:title="@string/pref_title_background"
+            android:defaultValue="@string/pref_default_background"
+            android:entries="@array/pref_background"
+            android:entryValues="@array/pref_background" />"
+        
+        <CheckBoxPreference android:key="pan_checkbox" 
+            android:title="@string/pref_title_pan"
+            android:defaultValue="false"
+            android:summary="@string/pref_summary_pan"/>
+        
+    </PreferenceCategory>
+        
+</PreferenceScreen>
